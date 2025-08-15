@@ -15,14 +15,16 @@ npm run build -> Build the project
 npm run preview -> Preview the production build locally
 ```
 
-## Steps
+## Steps for local run
 
-In order for the application to run correctly you will only need a `MEDIASTACK_ACCESS_KEY` as shown in the .env.example which can be found on the root of the project.
+In order for the application to run correctly you will need a `MEDIASTACK_ACCESS_KEY` and `PROTOCOL` as shown in the `.env.example` which can be found on the root of the project.
 
-1. Create a `.env` file and add the `MEDIASTACK_ACCESS_KEY` as shown in the `.env.example` with the access key value
-2. Run `npm install`
-3. Run `npm run dev`
-4. Application should start in localhost:3000 automatically
+1. Create a `.env` file.
+2. Add the `MEDIASTACK_ACCESS_KEY` as shown in the `.env.example` with the access key value.
+3. Add the `PROTOCOL` as shown in the `.env.example` with the access key value. `http` for local development and `https` for production deployed code.
+4. Run `npm install`
+5. Run `npm run dev`
+6. Application should start in localhost:3000 automatically
 
 ## Overview
 
