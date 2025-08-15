@@ -21,7 +21,7 @@ In order for the application to run correctly you will need a `MEDIASTACK_ACCESS
 
 1. Create a `.env` file.
 2. Add the `MEDIASTACK_ACCESS_KEY` as shown in the `.env.example` with the access key value.
-3. Add the `PROTOCOL` as shown in the `.env.example` with the access key value. `http` for local development and `https` for production deployed code.
+3. Add the `PROTOCOL` as shown in the `.env.example` with the value; `http` for local development and `https` for production deployed code.
 4. Run `npm install`
 5. Run `npm run dev`
 6. Application should start in localhost:3000 automatically
