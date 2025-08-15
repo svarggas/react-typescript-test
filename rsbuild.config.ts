@@ -8,6 +8,9 @@ export default defineConfig({
       'process.env.MEDIASTACK_ACCESS_KEY': JSON.stringify(
         process.env.MEDIASTACK_ACCESS_KEY,
       ),
+      'process.env.PROTOCOL': JSON.stringify(
+        process.env.PROTOCOL,
+      ),
     },
   },
 });

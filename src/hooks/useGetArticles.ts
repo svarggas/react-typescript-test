@@ -14,7 +14,7 @@ interface GetArticlesResponse {
 }
 
 const getUrl = (sort: SortOptions, limit: number = 100, offset: number = 0) => {
-  const apiUrl = new URL('http://api.mediastack.com/v1/news');
+  const apiUrl = new URL(`${process.env.PROTOCOL}://api.mediastack.com/v1/news`);
   const searchParams = new URLSearchParams({
     languages: 'en',
     limit: limit.toString(),
