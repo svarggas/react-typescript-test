@@ -1,36 +1,33 @@
-# Rsbuild project
+# Test project
 
-## Setup
-
-Install the dependencies:
+## Scripts
 
 ```bash
-pnpm install
+npm install -> Install the dependencies
 ```
-
-## Get started
-
-Start the dev server, and the app will be available at [http://localhost:3000](http://localhost:3000).
-
 ```bash
-pnpm dev
+npm run dev -> Run the application locally
 ```
-
-Build the app for production:
-
 ```bash
-pnpm build
+npm run build -> Build the project
 ```
-
-Preview the production build locally:
-
 ```bash
-pnpm preview
+npm run preview -> Preview the production build locally
 ```
 
-## Learn more
+## Steps
 
-To learn more about Rsbuild, check out the following resources:
+In order for the application to run correctly you will only need a `MEDIASTACK_ACCESS_KEY` as shown in the .env.example which can be found on the root of the project.
 
-- [Rsbuild documentation](https://rsbuild.rs) - explore Rsbuild features and APIs.
-- [Rsbuild GitHub repository](https://github.com/web-infra-dev/rsbuild) - your feedback and contributions are welcome!
+1. Create a `.env` file and add the `MEDIASTACK_ACCESS_KEY` as shown in the `.env.example` with the access key value
+2. Run `npm install`
+3. Run `npm run dev`
+4. Application should start in localhost:3000 automatically
+
+## Overview
+
+The purpouse of the project is to showcase the capabilities regarding Front End Development. Focused on:
+- Project architecture
+- Good practices
+- Vanilla CSS
+- Standardized DX
