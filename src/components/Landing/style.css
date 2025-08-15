@@ -1,0 +1,47 @@
+.pagination-info {
+    text-align: center;
+    color: #6b7280;
+    font-size: 0.875rem;
+    margin-bottom: 24px;
+    padding: 12px;
+    background: #f9fafb;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 32px;
+    margin-bottom: 80px;
+}
+
+.error-message {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 40px;
+    background: #fff;
+    border: 1px solid #e8e0d6;
+    border-radius: 12px;
+    color: #3c2415;
+}
+
+.error-message p {
+    margin-bottom: 16px;
+    font-size: 1.125rem;
+    color: #6b4e3d;
+}
+
+.error-message button {
+    background: #d97706;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.error-message button:hover {
+    background: #b45309;
+}

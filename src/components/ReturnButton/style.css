@@ -1,0 +1,27 @@
+.detail-header {
+    background: #ffffff;
+    border-bottom: 1px solid #e8e0d6;
+    padding: 24px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.back-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #d97706;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #d97706;
+    background: transparent;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background: #d97706;
+    color: white;
+}

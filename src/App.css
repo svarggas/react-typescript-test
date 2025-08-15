@@ -1,0 +1,44 @@
+/* Color Palette:
+- Primary: #3c2415 (rich brown)
+- Secondary: #6b4e3d (warm brown)
+- Accent: #d97706 (burnt orange)
+- Background: #f8f6f3 (warm cream)
+- White: #ffffff
+*/
+
+/* Import responsive media queries */
+@import './styles/mediaQuerys/lg.css';
+@import './styles/mediaQuerys/md.css';
+@import './styles/mediaQuerys/sm.css';
+@import './styles/mediaQuerys/xs.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  background: #f8f6f3;
+  color: #3c2415;
+  line-height: 1.6;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.centerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
