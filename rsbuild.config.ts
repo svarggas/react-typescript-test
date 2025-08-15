@@ -3,14 +3,15 @@ import { pluginReact } from '@rsbuild/plugin-react';
 
 export default defineConfig({
   plugins: [pluginReact()],
+  html: {
+    title: 'Articles',
+  },
   source: {
     define: {
       'process.env.MEDIASTACK_ACCESS_KEY': JSON.stringify(
         process.env.MEDIASTACK_ACCESS_KEY,
       ),
-      'process.env.PROTOCOL': JSON.stringify(
-        process.env.PROTOCOL,
-      ),
+      'process.env.PROTOCOL': JSON.stringify(process.env.PROTOCOL),
     },
   },
 });
