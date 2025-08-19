@@ -33,3 +33,13 @@ The purpouse of the project is to showcase the capabilities regarding Front End 
 - Good practices
 - Vanilla CSS
 - Standardized DX
+
+## Example images:
+
+### Grid with articles
+
+<img width="3400" height="1868" alt="Screenshot 2025-08-18 at 9 46 11 AM" src="https://github.com/user-attachments/assets/ae67de87-7d45-4d38-ac6b-88ba7ae22398" />
+
+### Article
+
+<img width="3390" height="1860" alt="Screenshot 2025-08-18 at 9 46 24 AM" src="https://github.com/user-attachments/assets/2ad887ac-d193-44f4-be56-27cc3449ad59" />
