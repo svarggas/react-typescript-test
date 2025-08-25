@@ -34,6 +34,13 @@ The purpouse of the project is to showcase the capabilities regarding Front End 
 - Vanilla CSS
 - Standardized DX
 
+## MEDIASTACK ACCESS KEY
+
+In case the mediastack querys start to return that the monthly endpoint calls have been met. You can always create a new access key to test it locally by following the next steps:
+1. Go to https://mediastack.com/signup/free and sign up
+2. Jump in to the dashboard
+3. Copy the access key and update/add it to your project 
+
 ## Example images:
 
 ### Grid with articles
